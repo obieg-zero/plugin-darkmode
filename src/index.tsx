@@ -1,4 +1,4 @@
-import type { PluginFactory } from '../../plugin-types'
+import type { PluginFactory } from '@obieg-zero/sdk'
 
 const plugin: PluginFactory = ({ React, ui, icons, sdk }) => {
   const { useState, useEffect } = React
