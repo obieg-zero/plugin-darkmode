@@ -13,7 +13,7 @@ const plugin = ({ React, ui, icons, sdk }) => {
     return /* @__PURE__ */ jsx(ui.Cell, { onClick: () => setDark((d) => !d), children: dark ? /* @__PURE__ */ jsx(Sun, { size: 16 }) : /* @__PURE__ */ jsx(Moon, { size: 16 }) });
   }
   sdk.registerAction("darkmode.toggle", { node: /* @__PURE__ */ jsx(ThemeToggle, {}) });
-  return { id: "darkmode", label: "Dark mode", version: "0.2.0" };
+  return { id: "plugin-darkmode", label: "Dark mode", version: "0.2.0" };
 };
 export {
   plugin as default

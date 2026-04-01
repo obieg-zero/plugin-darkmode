@@ -1,5 +1,7 @@
 {
   "name": "@obieg-zero/plugin-darkmode",
-  "version": "1.0.0",
+  "version": "1.0.2",
+  "description": "Przełącznik trybu jasny/ciemny",
+  "price": 1000,
   "private": true
 }
